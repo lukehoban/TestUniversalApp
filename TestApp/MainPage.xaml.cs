@@ -26,5 +26,10 @@ namespace TestApp
         {
             this.InitializeComponent();
         }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            webView.Navigate(new Uri("ms-appx-web:///content/start.html"));
+        }
     }
 }
