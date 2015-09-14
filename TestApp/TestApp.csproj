@@ -93,6 +93,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="content\small.mp4" />
     <Content Include="content\start.html" />
     <None Include="project.json" />
   </ItemGroup>
